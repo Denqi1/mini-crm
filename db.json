@@ -1,0 +1,36 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Иван Петров",
+      "email": "ivan@example.com",
+      "company": "ООО Ромашка"
+    },
+    {
+      "id": 2,
+      "name": "Мария Сидорова",
+      "email": "maria@example.com",
+      "company": "ИП Сидоров"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "contactId": 1,
+      "title": "Позвонить",
+      "status": "new"
+    },
+    {
+      "id": 2,
+      "contactId": 1,
+      "title": "Отправить КП",
+      "status": "in_progress"
+    },
+    {
+      "id": 3,
+      "contactId": 2,
+      "title": "Встреча",
+      "status": "done"
+    }
+  ]
+}

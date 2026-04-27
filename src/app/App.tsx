@@ -1,31 +1,11 @@
 import { useEffect, useState } from 'react';
+
+import { useDebounce } from '../shared/lib/useDebounce';
+import { getContacts } from '../entities/contacts';
+
 import './App.css';
 
-const getContacts = async () => {
-  const response = await fetch('http://localhost:3001/contacts', {
-    method: 'GET',
-  });
-
-  return await response.json();
-};
-
-const useDebounce = (value, delay = 300) => {
-  const [debouncedValue, setDebouncedValue] = useState(value);
-
-  useEffect(() => {
-    const timerId = setTimeout(() => {
-      setDebouncedValue(value);
-    }, delay);
-
-    return () => {
-      clearTimeout(timerId);
-    };
-  }, [delay, value]);
-
-  return debouncedValue;
-};
-
-function App() {
+export const App = () => {
   const [contacts, setContacts] = useState(null);
   const [searchValue, setSearchValue] = useState('');
 
@@ -73,6 +53,4 @@ function App() {
       })}
     </>
   );
-}
-
-export default App;
+};

@@ -19,10 +19,19 @@
   --color-proposal: #b07cc9;
   --color-work: #1c8a59;
 
-  /* Интерфейс и текст */
-  --font-hankengrotesk: 'Hanken Grotesk', sans-serif;
-  /* Заголовки, числа, «моменты» */
-  --font-newsreader: 'Newsreader', serif;
-
+  /* Шрифты */
+  --font-hankengrotesk: 'Hanken Grotesk', sans-serif; /* Интерфейс и текст */
+  --font-newsreader: 'Newsreader', serif; /* Заголовки, числа, «моменты» */
+  --font-mono:
+    'JetBrains Mono', monospace; /* Подписи, технические лейблы, метаданные, размерности */
   --default-font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+}
+
+p {
+  font-size: 15px;
 }

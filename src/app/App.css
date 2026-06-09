@@ -1,1 +1,21 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-*: initial;
+
+  /* Поверхности и текст */
+  --color-paper: #faf9f5;
+  --color-surface: #ffffff;
+  --color-sunken: #f3f1ea;
+  --color-ink: #211f1a;
+  --color-ink-2: #5f5b51;
+  --color-ink-3: #918c80;
+
+  /* Акцент и статусы */
+  --color-accent: #1c8a59;
+  --color-soft: #e7f2ea;
+  --color-lead: #6f86c9;
+  --color-overdue: #c79a4e;
+  --color-proposal: #b07cc9;
+  --color-work: #1c8a59;
+}

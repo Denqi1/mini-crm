@@ -8,8 +8,8 @@
   --color-surface: #ffffff;
   --color-sunken: #f3f1ea;
   --color-ink: #211f1a;
-  --color-ink-2: #5f5b51;
-  --color-ink-3: #918c80;
+  --color-ink-secondary: #5f5b51;
+  --color-ink-muted: #918c80;
 
   /* Акцент и статусы */
   --color-accent: #1c8a59;
@@ -18,4 +18,9 @@
   --color-overdue: #c79a4e;
   --color-proposal: #b07cc9;
   --color-work: #1c8a59;
+
+  /* Шрифты */
+  --font-hankengrotesk: 'Hanken Grotesk', sans-serif;
+  --font-newsreader: 'Newsreader', serif;
+  --default-font-family: 'Hanken Grotesk', sans-serif;
 }

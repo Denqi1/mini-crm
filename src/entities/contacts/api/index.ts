@@ -1,1 +1,0 @@
-export { getContacts } from './getContacts';

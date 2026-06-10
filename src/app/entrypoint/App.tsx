@@ -1,10 +1,6 @@
-import type { ReactNode } from 'react';
 import { NavigationBar } from '../../widgets/NavigationBar';
 import { HeaderBar } from '../../widgets/HeaderBar';
-
-export interface AppProps {
-  children: ReactNode;
-}
+import type { AppProps } from './App.types';
 
 export const App = (props: AppProps) => {
   const { children } = props;

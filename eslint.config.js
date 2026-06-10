@@ -71,6 +71,8 @@ export default defineConfig([
         {
           code: 80,
           comments: 80,
+          ignoreStrings: true,
+          ignoreTemplateLiterals: true,
         },
       ],
     },

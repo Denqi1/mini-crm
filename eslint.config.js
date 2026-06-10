@@ -6,8 +6,6 @@ import tseslint from 'typescript-eslint';
 import { defineConfig, globalIgnores } from 'eslint/config';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import eslintConfigPrettier from 'eslint-config-prettier';
-import simpleImportSort from 'eslint-plugin-simple-import-sort';
-import eslintConfigPrettier from 'eslint-config-prettier';
 
 export default defineConfig([
   globalIgnores(['dist']),

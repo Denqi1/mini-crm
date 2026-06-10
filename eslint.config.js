@@ -65,6 +65,14 @@ export default defineConfig([
         },
       ],
       'simple-import-sort/exports': 'error',
+
+      'max-len': [
+        'error',
+        {
+          code: 80,
+          comments: 80,
+        },
+      ],
     },
   },
 ]);

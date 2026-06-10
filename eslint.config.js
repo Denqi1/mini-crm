@@ -37,15 +37,15 @@ export default defineConfig([
         {
           groups: [
             /**
-             * React and third-party
+             * React and third-party.
              */
             ['^react$', '^\\w'],
             /**
-             * Other packages
+             * Other packages.
              */
             ['^@?\\w'],
             /**
-             * Internal path aliases (FSD layers)
+             * Internal path aliases (FSD layers).
              */
             ['^@/app'],
             ['^@/pages'],
@@ -54,11 +54,11 @@ export default defineConfig([
             ['^@/entities'],
             ['^@/shared'],
             /**
-             * Local relative imports
+             * Local relative imports.
              */
             ['^\\.'],
             /**
-             * Styles
+             * Styles.
              */
             ['\\.s?css$'],
           ],

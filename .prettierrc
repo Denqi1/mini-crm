@@ -15,5 +15,5 @@
 
   "plugins": ["prettier-plugin-tailwindcss"],
 
-  "tailwindStylesheet": "./src/app/styles/index.css"
+  "tailwindStylesheet": "./client/src/app/styles/index.css"
 }

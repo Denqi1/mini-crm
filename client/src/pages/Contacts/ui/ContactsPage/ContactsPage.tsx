@@ -1,21 +1,12 @@
-import { useEffect } from 'react';
-
+/**
+ * TODO: The contact page will be implemented in a separate ticket.
+ *
+ * @see DEV-52
+ */
 export const ContactsPage = () => {
-  useEffect(() => {
-    new Promise((res) => {
-      fetch('/api/contacts').then((value) => {
-        res(value.json());
-      });
-    }).then((data) => {
-      console.log(data);
-    });
-  });
-
   return (
     <div>
       <h1 className='text-4xl font-semibold'>Контакты</h1>
-
-      {/* Тут будут данные */}
     </div>
   );
 };

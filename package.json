@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "cd ./client && vite preview",
-    "server": "node --env-file=.env server/src/index.ts"
+    "server": "node --env-file=.env ./server/src/index.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",

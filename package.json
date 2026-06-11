@@ -4,11 +4,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "cd ./client && vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "server": "json-server --watch db.json --port 3001"
+    "preview": "cd ./client && vite preview",
+    "server": "node --env-file=.env server/src/index.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.0",

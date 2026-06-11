@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    /**
+     * TODO: The addition of tsconfig has been moved to a separate ticket.
+     *
+     * @see DEV-26
+     */
+  },
+  "include": ["./server/src"]
+}
